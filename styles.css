@@ -1,8 +1,6 @@
-
-/* Your CSS Code here. */
 .holder {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Space between the items */
     flex-wrap: wrap; /* Allow items to wrap to the next line */
     padding: 0 10px; /* Optional: Add padding to the holder */
 }
@@ -10,6 +8,6 @@
 .item {
     flex: 1 1 auto; /* Allow items to grow and shrink */
     margin: 10px; /* Space between items */
-    min-width: 100px; /* Optional: Set a minimum width for items */
-    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    min-width: 100px; /* Ensure items have a minimum width */
+    box-sizing: border-box; /* Include padding and border in width */
 }
